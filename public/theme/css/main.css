@@ -1,0 +1,191 @@
+html {
+    scroll-behavior: smooth;
+}
+.bg-yellow{
+    background-color: rgb(252, 185, 0);
+}
+.navbar-brand img{
+    width: 200px;
+}
+.navigation-bar-links li a{
+    color: white !important;
+    margin: 0 8px;
+    font-size: 18px;
+}
+#be_our_driver{
+    background-color: white;
+    color: rgb(252, 185, 0) !important;
+    font-weight: bold;
+    /* margin: 0 7px; */
+}
+.btn-yellow{
+    background-color:rgb(252, 185, 0);
+    color: white !important;
+    /* margin: 0 7px; */
+}
+.hero{
+    background-color: aliceblue;
+    margin-top: 82px;  
+}
+.about-us{
+    margin: 75px auto;
+}
+.about-us h2{
+    
+    color:rgb(48,41,117);
+
+    font-weight: bold;
+
+    margin-bottom: 43px;
+}
+.about-us-section img{
+    margin-bottom: 15px;
+}
+.about-us-section h3{
+    color: rgb(48, 41, 117);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.about-us-section p{
+    font-size: 15px;
+    text-align: justify;
+}
+.competitiveness-description{
+    padding: 50px;
+}
+.competitiveness-description h2{
+    color: white;
+    font-weight: bold;
+}
+.competitiveness-description p{
+    color: white;
+}
+.features{
+    margin-top: 50px;
+}
+.features .items{
+    margin-top: 12px;
+}
+.features .items2{
+    margin-top: 15px;
+}
+.features .item{
+    text-align: center;
+}
+.features .item img{
+    margin-bottom: 25px;
+}
+
+.features h2{
+    
+    color:rgb(48,41,117);
+
+    font-weight: bold;
+
+    margin-bottom: 60px;
+}
+.how-it-work{
+    margin-top: 80px;
+}
+
+.how-it-work h2{
+    
+    color:rgb(48,41,117);
+
+    font-weight: bold;
+
+    margin-bottom: 60px;
+}
+
+.footer{
+    width: 100%;
+
+    height: auto;
+
+    background:rgb(252,185,2);
+}
+
+.footer .footer-col-1{
+    padding: 40px 0;
+}
+
+.footer .footer-col-2{
+    padding: 40px 0;
+}
+
+.footer .footer-col-2 ul li{
+    margin: 15px 0;
+}
+
+.footer .footer-col-3{
+    padding: 55px 0;
+}
+
+.footer .footer-col-3 ul li{
+    margin: 15px 0;
+}
+
+.footer .footer-col-4{
+    padding: 55px 0;
+}
+
+.footer .footer-col-4 ul li{
+    margin: 15px 0;
+}
+#about-img-1{
+    display: none;
+}
+
+#about-img-2{
+    display: none;
+}
+#competitiveness-img{
+    display: none;
+}
+
+#how-it-work-1{
+    display: none;
+}
+
+#how-it-work-2{
+    display: none;
+}
+
+#how-it-work-3{
+    display: none;
+}
+
+.driver-hero {
+    margin: 83px auto;
+    height: 525px;
+    background-image: url('../img/slider2.jpg');
+    background-size: cover;
+}
+
+.from-heading h2{
+    color:rgb(48,41,117);
+
+}
+
+.from-heading i{
+    float: right;
+    margin: -40px auto;
+}
+
+.btn-blue{
+    background-color: rgb(48, 41, 117);
+    color: white;
+}
+.text-yellow{
+    color: rgb(252, 185, 0) !important;
+}
+
+.text-blue{
+    color: rgb(48, 41, 117);
+}
+.border-yellow{
+    border-color: rgb(252, 185, 0) !important;
+}
+.dropdown-menu .drop-link{
+    color:rgb(48, 41, 117) !important;
+}

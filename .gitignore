@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/public_html/marasiel.com/public/modules/drivers/uploads
+/Modules/Drivers/Resources/assets/js/croppie/upload-demo.php
+/public/assets/profile-upload.php
+/public/siteconfig.js
+/storage/*.key
+/vendor
+.env
+marasielo.zip
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

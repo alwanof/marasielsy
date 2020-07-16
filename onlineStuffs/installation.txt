@@ -1,0 +1,13 @@
+I make some update
+.env
+*Modules/Drivers/Resources/assets/js/croppie/upload-demo.php
+*/public/modules/drivers/js/croppie/upload-demo.php
+Modules/Drivers/Resources/assets/js/croppie/cropConfig.js
+marasiel.com/resources/js/app.js
+public/assets/cropConfig.js
+*public/assets/profile-upload.php
+*public/siteconfig.js
+public/front/js/main.js
+/public/modules/drivers/js/croppie
+file_put_contents('../../uploads/drivers/' . $imageName, $data);
+

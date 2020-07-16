@@ -1,0 +1,15 @@
+{
+    "name": "Drivers",
+    "alias": "drivers",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Drivers\\Providers\\DriversServiceProvider",
+        "Modules\\Drivers\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
