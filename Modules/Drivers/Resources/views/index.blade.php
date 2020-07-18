@@ -134,6 +134,14 @@
                         <i class="fas fa-check"></i>
                         {{__('leads.requirments.content')[5]}}
                     </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check"></i>
+                        {{__('leads.requirments.content')[6]}}
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check"></i>
+                        {{__('leads.requirments.content')[7]}}
+                    </li>
 
                 </ul>
                 <p class="leads text-center text-yellow">

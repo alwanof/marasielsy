@@ -33,8 +33,10 @@ return [
             'Have at least one year of licensed driving experience',
             'Own a car (at least 4 doors) or a motorcycle ',
             'Have a smart Phone (Android,IOS)',
-            'Have a valid driving license',
-            'Have a Criminal Certificate'
+            'Driving License',
+            'Have a Criminal Certificate (criminal status sheet must be free from any precedent or criminal misdemeanor)',
+            'A copy of the driving license of the car with the original copy of the license',
+            'A copy of the car license itself, with the original license to view and verify the person\'s ownership of the car',
         ]
     ],
     'support'=>[
