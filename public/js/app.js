@@ -56797,11 +56797,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 function randomStr(length) {
-  var result = '';
-  var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  var result = "";
+  var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   var charactersLength = characters.length;
 
   for (var i = 0; i < length; i++) {
@@ -56873,7 +56880,7 @@ function randomStr(length) {
         hash: driver.hash,
         email: driver.email,
         phone: driver.phone,
-        password: 'secret+9314',
+        password: "secret+9314",
         fname: driver.fname,
         lname: driver.lname,
         vmodel: driver.vmodel,
@@ -56881,27 +56888,27 @@ function randomStr(length) {
         profile_URL: driver.avatar,
         country: driver.country
       };
-      var user = _resources_js_app__WEBPACK_IMPORTED_MODULE_0__["default"].dbAuth.createUserWithEmailAndPassword(driver.email, 'secret+9314').then(function (doc) {
+      var user = _resources_js_app__WEBPACK_IMPORTED_MODULE_0__["default"].dbAuth.createUserWithEmailAndPassword(driver.email, "secret+9314").then(function (doc) {
         if (doc) {
-          var query = _resources_js_app__WEBPACK_IMPORTED_MODULE_0__["default"].DB.collection('users').doc(doc.user.uid).set({
-            'appIdentifier': 'flutter-onboarding',
-            'email': driver.email,
-            'firstName': driver.fname,
-            'lastName': driver.lname,
-            'gender': '0',
-            'phone': parseInt(driver.phone),
-            'profilePictureURL': driver.avatar,
-            'userID': doc.user.uid,
-            'vehicle_brand': driver.vmodel,
-            'vehicle_type': parseInt(driver.vtype),
-            'country': driver.country
+          var query = _resources_js_app__WEBPACK_IMPORTED_MODULE_0__["default"].DB.collection("users").doc(doc.user.uid).set({
+            appIdentifier: "flutter-onboarding",
+            email: driver.email,
+            firstName: driver.fname,
+            lastName: driver.lname,
+            gender: "0",
+            phone: parseInt(driver.phone),
+            profilePictureURL: driver.avatar,
+            userID: doc.user.uid,
+            vehicle_brand: driver.vmodel,
+            vehicle_type: parseInt(driver.vtype),
+            country: driver.country
           });
           axios.get(_resources_js_app__WEBPACK_IMPORTED_MODULE_0__["default"].API_URL + "drivers/apigate/set/" + driver.id + "/" + doc.user.uid + "/approved?api_token=" + _this3.auth.api_token).then(function (res) {
             if (res.data == 1) {
-              toastr["success"]('Driver has been activated', 'ok');
+              toastr["success"]("Driver has been activated", "ok");
               _this3.loading = false;
             } else {
-              console.log('unexpected error!!!');
+              console.log("unexpected error!!!");
               _this3.loading = false;
             }
           })["catch"](function (error) {
@@ -56912,22 +56919,22 @@ function randomStr(length) {
       }); //const query=CONFIG.DB.collection('feeds');
 
       /*axios
-          .get(
-              CONFIG.API_URL + "drivers/apigate/set/"+ driver.id+ "/approved?api_token=" + this.auth.api_token
-          )
-          .then((res) => {
-            if(res.data==1){
-                 toastr["success"]('Driver has been activated','ok');
-                this.loading = false;
-            }else{
-                console.log('unexpected error!!!');
-                this.loading = false;
-            }
-           })
-          .catch(error => {
-              this.loading = false;
-              console.log(error);
-          });*/
+                    .get(
+                        CONFIG.API_URL + "drivers/apigate/set/"+ driver.id+ "/approved?api_token=" + this.auth.api_token
+                    )
+                    .then((res) => {
+                      if(res.data==1){
+                           toastr["success"]('Driver has been activated','ok');
+                          this.loading = false;
+                      }else{
+                          console.log('unexpected error!!!');
+                          this.loading = false;
+                      }
+                     })
+                    .catch(error => {
+                        this.loading = false;
+                        console.log(error);
+                    });*/
     },
     clearFields: function clearFields() {//this.user.name = this.user.email =this.user.domain= this.user.password = null;
     }
@@ -80500,11 +80507,7 @@ var render = function() {
                         },
                         [
                           _vm._v(
-                            "\n\n                            " +
-                              _vm._s(
-                                _vm.local[_vm.lang + ".leads"]["approve"]
-                              ) +
-                              "\n\n                        "
+                            _vm._s(_vm.local[_vm.lang + ".leads"]["approve"])
                           )
                         ]
                       )
@@ -80518,13 +80521,7 @@ var render = function() {
                     })
                   ]),
                   _vm._v(" "),
-                  _c("td", [
-                    _vm._v(
-                      "\n                        " +
-                        _vm._s(driver.fname) +
-                        "\n                    "
-                    )
-                  ]),
+                  _c("td", [_vm._v(_vm._s(driver.fname))]),
                   _vm._v(" "),
                   _c("td", [_vm._v(_vm._s(driver.lname))]),
                   _vm._v(" "),
@@ -80539,11 +80536,13 @@ var render = function() {
                     _vm._v(" "),
                     _c("span", { staticClass: "badge badge-secondary" }, [
                       _vm._v(
-                        _vm._s(
-                          driver.vtype == "0"
-                            ? _vm.local[_vm.lang + ".leads"]["vtypelist"][0]
-                            : _vm.local[_vm.lang + ".leads"]["vtypelist"][0]
-                        )
+                        "\n                " +
+                          _vm._s(
+                            driver.vtype == "0"
+                              ? _vm.local[_vm.lang + ".leads"]["vtypelist"][0]
+                              : _vm.local[_vm.lang + ".leads"]["vtypelist"][0]
+                          ) +
+                          "\n              "
                       )
                     ]),
                     _vm._v(" "),
@@ -95380,8 +95379,8 @@ var firebase = __webpack_require__(/*! firebase */ "./node_modules/firebase/dist
 __webpack_require__(/*! firebase/firestore */ "./node_modules/firebase/firestore/dist/index.esm.js");
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyCRaqAnXaybfWhIPlXt7GbBZfoY9WmU2dA',
-  projectId: 'marasiel-saudi-arabia-mens'
+  apiKey: 'AIzaSyBrEwXPpQ7ou03cfeeOANbsJ-CLfqkvXGQ',
+  projectId: 'marasiel-syria-93'
 });
 var db = firebase.firestore();
 var dbAuth = firebase.auth();
@@ -95402,10 +95401,10 @@ __webpack_require__(/*! ../../Modules/Drivers/Resources/assets/js/app */ "./Modu
 
 
 var CONFIG = {
-  API_URL: 'https://marasielapp.com/sa/man/public/api/',
-  PATH: '/sa/man/public',
-  //API_URL: 'http://localhost/marasielmansa/public/api/',
-  //PATH: '/marasielmansa/public',
+  API_URL: 'https://marasielapp.com/sy/public/api/',
+  PATH: '/sy/public',
+  //API_URL: 'http://localhost/marasielsy/public/api/',
+  //PATH: '/marasielsy/public',
   LANG: _lang_vue_translations_json__WEBPACK_IMPORTED_MODULE_0__,
   DB: db,
   dbAuth: dbAuth
@@ -95905,8 +95904,8 @@ module.exports = JSON.parse("{\"ar.alerts\":{\"users\":\"Users Manager\"},\"ar.a
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\marasielmansa\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\marasielmansa\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xampp\htdocs\marasielsy\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\marasielsy\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

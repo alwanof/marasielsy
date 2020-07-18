@@ -13,7 +13,7 @@ firebase.initializeApp({
     projectId: 'marasiel-syria-93'
 });
 const db = firebase.firestore();
-const dbAuth=firebase.auth();
+const dbAuth = firebase.auth();
 
 window.Vue = require('vue');
 import translations from '../lang/vue-translations.json'
@@ -39,8 +39,8 @@ const CONFIG = {
     //API_URL: 'http://localhost/marasielsy/public/api/',
     //PATH: '/marasielsy/public',
     LANG: translations,
-    DB:db,
-    dbAuth:dbAuth
+    DB: db,
+    dbAuth: dbAuth
 
 }
 
