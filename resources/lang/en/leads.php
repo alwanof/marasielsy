@@ -18,7 +18,7 @@ return [
     'vtypelist' => ['Taxi', 'Motocycle'],
     'plateno' => 'Vehicle Plate Number',
     'vtype' => 'Vehicle type',
-    'apply' => 'Next',
+    'apply' => 'Register',
     'apply2' => 'Register',
     'browse'=>'Browse',
     'title' => 'Join Marasiel Drivers',
@@ -42,7 +42,7 @@ return [
     'support'=>[
         'text'=>'Support 24/7 ',
         'whatsapp'=>'+90 531 8927413',
-        'email'=>'drivers@marasiel.com'
+        'email'=>'drivers@marasielapp.com'
     ],
     'lead_created' => 'We have been received your application, our team will contact you as soon as possible!',
     'filesUpload' => [

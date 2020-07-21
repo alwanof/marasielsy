@@ -57,7 +57,7 @@
                 </h3>
 
                 <p>
-                {{__('home.about.content')[0]}}
+                {{__('home.about.content')[1]}}
                 </p>
             </div>
         </div>

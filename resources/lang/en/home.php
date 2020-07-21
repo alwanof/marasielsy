@@ -6,7 +6,10 @@ return [
     'about'=>[
         'title'=>'About us ',
         'section'=>[' Who are we?',' What we do?'],
-        'content'=>['As a company specialized in the field of "taxi and delivery services” within cities and towns up to now; and after comprehensively summing up and evaluating our experience in offering relevant services, we came up with MARASIEL application that covers most, if not all, the need to be delivered items between two addresses, to and from our current and potential customers. ','When someone needs a taxi or, anything from the market "restaurant, food-staff, hardware store, tailor, gift shop, bookstore etc." and he/ she has no time to go for it, MARASIEL is -literally- thier MAGIC CARPET that solves the problem of time and distance or finds a quick ride all the time. ']
+        'content'=>[
+            'As a company specialized in the field of "taxi and delivery services” within cities and towns up to now; and after comprehensively summing up and evaluating our experience in offering relevant services, we came up with MARASIEL application that covers most, if not all, the need to be delivered items between two addresses, to and from our current and potential customers. ',
+            'When someone needs a taxi or, anything from the market "restaurant, food-staff, hardware store, tailor, gift shop, bookstore etc." and he/ she has no time to go for it, MARASIEL is -literally- thier MAGIC CARPET that solves the problem of time and distance or finds a quick ride all the time. '
+        ]
     ],
     'competitiveness'=>[
         'title'=>'Competitiveness ',
